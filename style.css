@@ -123,6 +123,7 @@ tbody tr td:first-child{
   justify-content: center;
 }
 .btn-wrapper .btn{
+  color: #272643;
   border: none;
   outline: none;
   font-size: 24px;
@@ -140,4 +141,17 @@ tbody tr td:first-child{
 .btn-wrapper .btn[disabled]{
   pointer-events: none;
   opacity: 0.7;
+}
+
+@media screen and (max-width:767px){
+  h1{
+    display:none;
+  }
+  .data-table{
+    padding:15px;
+  }
+  th, td{
+    padding:10px;
+    font-size:12px;
+  }
 }
